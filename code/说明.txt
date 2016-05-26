@@ -1,0 +1,24 @@
+语言:python
+编程环境:python2.7
+需要用到的库:numpy, matplotlib
+
+代码的文件：
+homework.py 为编写的求解各种参数和交叉验证的函数库
+homework1.py 为编写的求解各种参数和交叉验证的函数库(与homework.py唯一不同的是没有进行归一化处理)
+executeHomeWork.py 为解决第一个模型的主要函数调用逻辑，包括交叉校验K，从而确定
+K的最优值，对X的规范化，并对trainingdata的预测和作图。
+executeLingSolution.py 为解决第二个模型的主要函数调用逻辑，包括交叉校验lamda,从而
+确定lamba的最优值，并对trainingdata的预测和作图。
+executeErr.py 为K从1到30的训练集的误差平方和的作图趋势。
+executeErr2.py 为lamba从exp(i-10)，i从1到30的误差平方和的作图趋势。
+executeHomework_norm.py 为解决第一个模型规范化的结果
+executeLingSolution_norm.py 为解决第二个模型规范化后的结果
+
+执行命令：
+python errcuteErr.py
+python errcuteErr2.py
+python executeHomeWork.py
+python executeLingSolution.py
+python executeHomework_norm.py
+python executeLingSolution_norm.py
+
